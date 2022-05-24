@@ -1,0 +1,10 @@
+{
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "testFiles": "**/*.{feature,features}",
+  "baseUrl": "http://localhost:3200",
+  "retries": 1,
+  "ignoreTestFiles": ["**/__snapshots__/*", "**/__image_snapshots__/*"],
+  "videoCompression": false,
+  "screenshotOnRunFailure": false,
+  "video":false
+}
